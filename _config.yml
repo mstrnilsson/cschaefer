@@ -1,0 +1,73 @@
+# Site settings
+title: Carmen Schäfer
+email: ""
+description: "Ilustrations"
+url: "https://mstrnilsson.github.io"
+baseurl: "/landing_page"
+facebook_username: ""
+twitter_username: ""
+instagram_username: "lo_olli_and_more"
+github_username:  ""
+deviantart_username: ""
+linkedin_username: "carmen-schäfer-52a56a30"
+discus_shortname: ""
+share: true
+
+# Owner/author information
+owner:
+  name: carmenschäfer
+  avatar: avatar.png
+  favicon: favicon.png
+  info: photography website template
+
+# Settings for comments helper
+# Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
+# Set 'provider' to false to turn commenting off globally.
+#Set 'provider: false' to disable comments globally.
+# Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
+#
+comments : 
+  provider : false
+  disqus :
+    short_name : ""
+
+# Internal nav
+nav:
+  - GALLERY: "https://mstrnilsson.github.io/landing_page/gallery/"  
+#  - JOURNAL: "https://mstrnilsson.github.io/landing_page/journal/"
+  - ABOUT: "https://mstrnilsson.github.io/landing_page/about/"
+
+# All translation keys
+translations:
+ # 404.html
+  permalink: "/404.html"
+
+# Server
+destination:      	 ./_site
+port:             	 4000
+
+
+# Build settings
+markdown: kramdown
+highlighter: pink
+permalink: pretty
+paginate: 5
+paginate_path: "/journal/page:num/"
+permalink: "/:title/"
+categories_path: "/journal/category/"
+tags_path: "/journal/tag/"
+gems: 
+ - jekyll-paginate
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# SiteMap
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/writing/"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"

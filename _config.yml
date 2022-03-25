@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://mstrnilsson.github.io/cschaefer/gallery/"  
+  - GALLERY: "https://www.carmenschaefer.es/gallery/"  
 #  - JOURNAL: "https://mstrnilsson.github.io/cschaefer/journal/"
-  - ABOUT: "https://mstrnilsson.github.io/cschaefer/about/"
+  - ABOUT: "https://www.carmenschaefer.es/about/"
 
 # All translation keys
 translations:

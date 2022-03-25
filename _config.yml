@@ -2,8 +2,10 @@
 title: Carmen Schäfer
 email: "info@carmenschaefer.es"
 description: "Ilustrations"
-url: "https://mstrnilsson.github.io"
-baseurl: "/cschaefer"
+url: "https://www.carmenschaefer.es"
+baseurl: ""
+#url: "https://mstrnilsson.github.io"
+#baseurl: "/cschaefer"
 facebook_username: ""
 twitter_username: ""
 instagram_username: "lo_olli_and_more"
